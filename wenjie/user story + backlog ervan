@@ -1,0 +1,23 @@
+Programmertalen opleiding Software Developer
+
+Als toekomstige student wil ik een pagina die uitleg geeft over de programmeertalen die worden gegeven (en waarom) op de opleiding Software Developer.
+Hiermee kan ik mij alvast voorbereiden voor de opleiding en weet ik wat ik kan verwachten.
+
+Acceptatiecriteria:
+-	Bij elk programmeertaal zie ik wie de les geeft en welk bijhorend software er gebruikt wordt
+-	Hoe een project van dat programmeertaal er uit ziet
+
+
+
+Product backlog "Programmeertalen opleiding Software Developer"
+
+Prioriteit: Laag (maken na dat de hoofdpagina is vastgesteld)
+
+Doel: Werkende link(s) bij de sidebar die je naar een pagina brengt die uitglet geeft over de programmeertalen
+
+Taken:
+- Samenvatting geven van de bijhorende programmeertalen, en welke docenten dat vak geven
+- (Individuele) Pagina(s) maken die informatie bevat van dat programmeertaal.
+
+*Om bij deze pagina(s) te komen moeten wij bij de hoofdpagina een sidebar maken met daarin een link naar deze informatie*
+

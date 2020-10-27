@@ -1,0 +1,72 @@
+FAQ pagina (inhoud)
+doel: veelgevraagde vragen over school en lessen
+prio: laag
+
+
+task corona regels (inhoud)
+doel: corona regels uitleggen
+prio: gemiddeld
+
+
+task layout (opmaak/inhoud)
+doel: professioneel de website eruit laten zien
+prio medium
+
+
+task logo
+doel: dat er een logo is
+
+prio: laag
+
+task school regels & gedrachtsregels
+
+doel: dat de regels kennen
+
+prio: gemiddeld
+
+
+task hoofpagina
+
+doel: een pagina waar de student op kan komen als die naar de website gaat
+
+prio: hoog
+
+task facilitair pagina (inhoud)
+
+
+doel: info over al het facilitair wat in het gebouw is
+
+prio: gemiddeld 
+
+
+task vervoer pagina
+
+doel: dat iedereen weet hoe je hier komt het het OV
+
+prio: gemiddeld 
+
+
+task: navbar
+
+doel: is dat je kan navigeeren tussen pagina's
+
+
+task navbar hide&show
+
+doel: dat de navbar verschuild kan worden
+
+prio: laag 
+
+
+task foto's verzamelen
+
+doel: foto's hebben voor de website
+
+prio: hoog
+
+
+task vakken
+
+doel: dat de student weet welke vakken die krijgt
+
+prio gemiddeld

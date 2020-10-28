@@ -93,3 +93,17 @@ li a:hover:not(.active) {
   font-weight: 500;
   margin-top: 0;
 }
+
+.images {
+  padding-top: 60px;
+  text-align: center;
+}
+
+.clear {
+  clear: both;
+}
+
+.titel {
+  text-align: center;
+  font-size: 60px
+}

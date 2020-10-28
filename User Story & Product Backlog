@@ -1,0 +1,178 @@
+User Story "Logo" (Lay-Out)
+
+Als website beheerder wil ik graag een logo hebben die goed bij de site past, zodat de website er proffesioneel uit ziet.
+
+Acceptatiecriteria:
+- Een gepast logo die de site representeert
+
+PRODUCT BACKLOG
+Prioriteit: Hoog
+
+Doel: De website proffesioneel uit laten zien
+
+Taken:
+- Een logo maken voor de website
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+
+User Story "Hoofdpagina" (Lay-Out)
+
+Als sitebezoeker wil ik een site kunnen vinden die informatie bevat over de opleiding waar ik mij misschien voor wil aanmelden,
+zodat ik een betere beslissing kan maken over of dit bij mij past.
+
+Acceptatiecriteria:
+- Een hoofdpagina maken waar ik in kan navigeren
+
+PRODUCT BACKLOG
+Prioriteit: Hoog
+
+Doel: Een overzichtelijke hoofdpagina met een sidebar en logo
+
+Taken:
+- Hoofdpagina maken met HTML/CSS en hetzelfde opbouw gebruiken voor elk andere pagina
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+
+User Story "Sidebar" (Lay-Out)
+
+Als sitebezoeker wil ik een sidebar die mij naar de pagina's die informatie bevat over de opleiding Software Developer kan brengen,
+zodat ik makkelijk door de website kan navigeren en de informatie kan vinden van wat ik wil weten.
+
+Acceptatiecriteria:
+- Als ik op een onderwerp klik dan brengt het mij naar de correcte pagina
+
+PRODUCT BACKLOG
+Prioriteit: Hoog
+
+Doel: Een sidebar aan de linkerkant die mij naar individuele pagina's van de onderwerpen kan brengen
+
+Taken:
+- Het maken van een sidebar aan de linkerkant
+- Symbolen bij de bijhorende onderwerpen zetten
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+
+User Story "Sidebar Drop-Down" (Werkzaamheid)
+
+Als sitebezoeker wil ik de sidebar kunnen verbergen, zodat de site er overzichtelijker uit ziet.
+
+Acceptatiecriteria:
+- Als ik op de rand van de sidebar klik dan verbergt de sidebar
+
+PRODUCT BACKLOG
+Prioriteit: Gemiddeld (maken na dat de sidebar gemaakt is)
+
+Doel: Een functie maken waarmee ik de sidebar kan verbergen
+
+Taken:
+- Het maken van een functie waarmee ik de sidebar kan verbergen
+- Lighting-on-hover feature implementeren
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+
+User Story "Terug naar de hoofdpagina gaan" (Werkzaamheid)
+
+Als sitebezoeker wil ik makkelijk terug naar de hoofdpagina kunnen gaan zonder dat ik het zelf op mijn browser moet doen,
+zodat ik moeite kan voorkomen door steeds zelf terug te moeten drukken op mijn browser.
+
+Acceptatiecriteria:
+- Als ik op de logo van de website druk stuurt het mij terug naar de hoofdpagina
+
+PRODUCT BACKLOG
+Prioriteit: Gemiddeld (maken na dat de sidebar compleet is)
+
+Doel: Een functie maken die mij terug brengt naar de hoofdpagina als ik op de logo druk
+
+Taken:
+- Het maken van de functie die mij terug brent naar de hoofdpagina door op de logo te drukken
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+
+User Story "Media" (Lay-Out)
+
+Als toekomstige student zou ik het interessant vinden om te weten hoe het schoolgebouw er uit ziet en welke docenten er bij deze opleiding zijn,
+zodat ik weet welk gebouw het is als ik voor het eerst naar school, en weet ik alvast wie ik eventueel kan aanspreken.
+
+Acceptatiecriteria:
+- Alleen nodige media plaatsen bij de bijhorende pagina's
+
+PRODUCT BACKLOG
+Prioriteit: Gemiddeld (plaatsen als de pagina's gemaakt zijn)
+
+Doel: Visueel informeren
+
+Taken:
+- Foto's op de bijhorende pagina's plaatsen
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+
+User story "FAQ" (Inhoud)
+
+Als toekomstige student wil ik een pagina die veelgestelde vragen bevat over de school, zodat ik niet per se de school moet bellen.
+
+Acceptatiecriteria:
+- Veelgestelde vragen antwoorden
+
+PRODUCT BACKLOG
+Prioriteit: Laag (maken na dat alle pagina's gemaakt zijn)
+
+Doel: Doel: Werkende link bij de sidebar die mij naar de FAQ pagina brengt.
+
+Taken:
+- Veelgestelde vragen noteren en samenvatten
+- De pagina maken voor de FAQ
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+
+User story "Programmertalen" (Inhoud)
+
+Als toekomstige student wil ik een pagina die uitleg geeft over de programmeertalen die worden gegeven (en waarom) op de opleiding Software Developer,
+zodat ik mij zelf alvast kan voorbereiden voor wat er op deze opleiding komt.
+
+Acceptatiecriteria:
+-	Elk programmeertaal wordt uitgelegd
+-	Hoe een project van dat programmeertaal er uit ziet
+
+PRODUCT BACKLOG
+Prioriteit: Laag (maken na dat alle pagina's gemaakt zijn)
+
+Doel: Pagina hebben die informatie over de programmeertalen bevat
+
+Taken:
+- De programmeertalen samenvatten
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+
+User Story "Leerjaar 1" (Inhoud)
+
+Als toekomstige student wil ik graag informatie kunnen vinden over hoe de leerjaren er uit zien, leerjaar 1 om precies te zijn (staat bij dit project),
+zodat ik weet hoe het schoolsysteem in elkaar zit en of ik voor deze school wil gaan kiezen.
+
+Acceptatiecriteria:
+- Samenvatting over hoe de leerjaren er uit zien
+
+PRODUCT BACKLOG
+Prioriteit: Laag (maken na dat alle pagina's gemaakt zijn)
+
+Doel: Pagina hebben die informatie over de schooljaren bevat
+
+Taken:
+- Een samenvatting maken van hoe de leerjaren er uit zien
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+
+User Story "Stage" (Inhoud)
+
+Als toekomstige student wil ik graag meer informatie krijgen over hoe stages bij deze opleiding worden geregeld,
+zodat ik een beter inzicht kan krijgen over deze opleiding.
+
+Acceptatiecriteria:
+- Stage wordt uitgelegd
+
+PRODUCT BACKLOG
+Prioriteit: Laag (maken na dat alle pagina's gemaakt zijn)
+
+Doel: Pagina hebben die informatie over stages bevat
+
+Taken:
+- De stage procedure samenvatten

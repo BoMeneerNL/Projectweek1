@@ -48,7 +48,7 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  width: 13%;
+  width: 15%;
   background-color: rgb(88, 84, 84);
   position: fixed;
   height: 90%;
@@ -96,88 +96,3 @@ li a:hover:not(.active) {
   font-weight: 500;
   margin-top: 0;
 }
-
-/*
-.content {
-  margin: 3rem;
-}
-
-@media (max-width: 500px) {
-  .content {
-      margin: 2rem;
-  }
-}
-.content-title {
-  font-size: 2rem;
-  font-weight: 500;
-  margin-top: 0;
-}
-.card {
-  position: relative;
-  margin: 2rem;
-  padding: 2rem;
-  color: rgba(0, 0, 0, 0.85);
-  background-color: #ffffff;
-  background-image: none;
-  border-radius: 0.4rem;
-  border: 1px solid rgba(0, 0, 0, 0.2);
-  -moz-box-shadow: none;
-  -webkit-box-shadow: none;
-  box-shadow: none;
-}
-.dark-mode .card {
-  color: rgba(255, 255, 255, 0.8);
-  background-color: #191c20;
-  background-image: none;
-  border-color: rgba(0, 0, 0, 0.2);
-  -moz-box-shadow: none;
-  -webkit-box-shadow: none;
-  box-shadow: none;
-}
-@media (max-width: 400px) {
-  .card {
-      margin: 2rem;
-      padding: 2rem;
-  }
-}
-.card-title {
-  font-size: 2rem;
-  font-weight: 500;
-  margin-top: 0;
-}
-.p-card {
-  padding: 2rem;
-}
-.px-card {
-  padding-left: 2rem;
-  padding-right: 2rem;
-}
-.py-card {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-}
-@media (max-width: 400px) {
-  .p-card {
-      padding: 1.5rem;
-  }
-  .px-card {
-      padding-left: 1.5rem;
-      padding-right: 1.5rem;
-  }
-  .py-card {
-      padding-top: 1.5rem;
-      padding-bottom: 1.5rem;
-  }
-}
-
-.v-spacer {
-  height: 3rem;
-  position: relative;
-  width: 100%;
-}
-@media (max-width: 576px) {
-  .v-spacer {
-      height: 2rem;
-  }
-}
-*/

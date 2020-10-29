@@ -1,8 +1,0 @@
-navbar
-	de navbar
-		als ik naar de navbar kijk wil ik dat het er goed uitziet en makkelijk te gebruiken is zodat het simpel is om te gebruiken en mooi is
-	acceptatiecriteria
-		- goede kleuren
-		- goede font
-		- symbolen
-		- hover-lighting

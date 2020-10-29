@@ -51,15 +51,12 @@ ul {
   width: 15%;
   background-color: rgb(88, 84, 84);
   position: fixed;
-  height: 90%;
+  height: 85%;
   overflow: auto;
 }
 
 .footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  height: 10%;
+  height: 100px;
   width: 100%;
   background-color: #f1f1f1;
   text-align: center;
@@ -95,4 +92,18 @@ li a:hover:not(.active) {
   font-size: 2rem;
   font-weight: 500;
   margin-top: 0;
+}
+
+.images {
+  padding-top: 60px;
+  text-align: center;
+}
+
+.clear {
+  clear: both;
+}
+
+.titel {
+  text-align: center;
+  font-size: 60px
 }

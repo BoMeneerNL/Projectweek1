@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <title>Vervoer</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body bgcolor="lightgrey">
+    
+    <div class="nav">
+        <div class="logo"><img src="Media/Capture-removebg-preview-removebg-preview.png" alt="p1bmw"></div>
+        <input type="checkbox" id="menu"/><label for="menu" id="nav-icon">&#9776</label>
+        <h1 class="h1">P1BMW</h1>
+
+        <div class="dropdown">
+            <ul class="list">
+                <li><a href="index.html">Hoofdpagina</a></li>
+                <li><a href="leerjaar1.html">Leerjaar 1</a></li>
+                <li><a href="programmeren.html">Programmeren in Leerjaar 1</a></li>
+                <li><a href="vervoer.html">Vervoer</a></li>
+                <li><a href="regels.html">Regels & Coronamaatregelen</a></li>
+                <li><a href="faq.html">Veelgestelde Vragen</a></li>
+                <li><a href="about.html">Over Ons</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <h2 class="h2">Hoe kom ik op het Technovium?</h2>
+    <div class="technovium right"><img src="Media/C517C6E49D5F0FC510D5F0BC843B2A7D-technovium-nijmegen.jpg" alt="technovium"></div>
+    <h2 class="titel">Het Technovium</br></h2>
+    <p class="paragraphleerjaar1advies">
+        Heyendaalseweg 98</br>
+        6525 EE Nijmegen</br></br>
+        Scroll helemaal naar beneden voor Google Maps!</br></br>
+    <h2 class="titel">Met de bus</br></h2>
+    <p class="paragraphleerjaar1vakken">
+        De volgende bussen rijden langs het Technovium:</br></br>
+        - Bus 58</br>
+        - Bus 300</br>
+        - Bus 14</br>
+        - Bus 10</br>
+        - Bus 11</br>
+        - Bus 12</br></br>
+    </p>
+    <h2 class="titel">Met de trein</br></h2>
+    <p class="paragraphleerjaar1advies">
+        Je stapt af bij station Nijmegen, en neemt een van de bovenstaande bussen.</br></br>
+    </p>
+    <h2 class="titel">Met de auto</br></h2>
+    <p class="paragraphleerjaar1advies">
+        Er zijn in het gebouw een aantal pakeerplaatsen, als het vol is kun je makkelijk rondom het gebouw ook een vakje vinden.</br>
+        Er staan ook oplaadpunten voor elektrische auto's.
+    </p>
+    
+    <script>
+        let map;
+        
+        function initMap() {
+          map = new google.maps.Map(document.getElementById("map"), {
+            center: { lat: 51.827442, lng: 5.868810 },
+            zoom: 15,
+          });
+        }
+        </script> 
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+            <script
+              src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBqRpx4vm3K82SGKQz5H4_uMtVgfbcJWWg&callback=initMap&libraries=&v=weekly"
+              defer
+            ></script>
+            <link rel="stylesheet" type="text/css" href="CSS/style.css" />
+            <script src="./index.js"></script>
+          </head>
+          <body>
+            <div id="map"></div>
+
+</body>
+</html>

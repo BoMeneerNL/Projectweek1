@@ -10,6 +10,23 @@
 </head>
 
 <body>
+    <script>
+        // Initialize and add the map
+function initMap() {
+  // The location of Uluru
+  const Technovium = { lat: 51.827405, lng: 5.868788 }; 
+  // The map, centered at Uluru
+  const map = new google.maps.Map(document.getElementById("map"), {
+    zoom: 15,
+    center: Technovium,
+  });
+  // The marker, positioned at Uluru
+  const marker = new google.maps.Marker({
+    position: Technovium,
+    map: map,
+  });
+}
+    </script>
     <ul>
         <img src="roc-phlogo.png" alt="ROC Logo" width="100" height="100">
         <li><a href="index.html">Hoofdpagina</a></li>
@@ -20,7 +37,7 @@
         <li><a href="vervoer.html">Vervoer</a></li>
         <li><a href="faq.html">Veelgestelde vragen</a></li>
     </ul>
-    
+
 
     <div style="margin-left:15%;padding:1px 16px;height:1000px;">
         <h1>Vervoer</h1>
@@ -32,7 +49,8 @@
                 bus
             </h3>
             <p>
-                Het vervoer op het ROC is erg goed. Als je bijv met de bus komt zijn er meerdere bussen die langs het gebouw komt.
+                Het vervoer op het ROC is erg goed. Als je bijv met de bus komt zijn er meerdere bussen die langs het
+                gebouw komt.
                 De volgende bussen komen hier langs:
             </p>
             <p>
@@ -66,62 +84,29 @@
                 Auto
             </h3>
             <p>
-                Als je met de auto ben heeft onze school een aantal parkeer plaatsen onder het gebouw. 
+                Als je met de auto ben heeft onze school een aantal parkeer plaatsen onder het gebouw.
                 Ook zijn hier oplaad punten voor electrishe Auto's
             </p>
             <h3>
                 Fiets & Scooters
             </h3>
             <p>
-                Natuurlijk kun je ook met de fiets of scooter komen en er zijn voor deze vervoerse middelen ook parkeer plaatsen.
+                Natuurlijk kun je ook met de fiets of scooter komen en er zijn voor deze vervoerse middelen ook parkeer
+                plaatsen.
             </p>
-            <head>
-                <title>Add Map</title>
-                <script
-                  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBqRpx4vm3K82SGKQz5H4_uMtVgfbcJWWg&callback=initMap&libraries=&v=weekly\/"
-                  defer
-                ></script>
-                <style type="text/css">
-                  /* Set the size of the div element that contains the map */
-                  #map {
-                    height: 400px;
-                    /* The height is 400 pixels */
-                    width: 100%;
-                    /* The width is the width of the web page */
-                  }
-                </style>
-                <script>
-                  // Initialize and add the map
-                  function initMap() {
-                    // The location of Uluru
-                    const uluru = { lat: -25.344, lng: 131.036 };
-                    // The map, centered at Uluru
-                    const map = new google.maps.Map(document.getElementById("map"), {
-                      zoom: 4,
-                      center: uluru,
-                    });
-                    // The marker, positioned at Uluru
-                    const marker = new google.maps.Marker({
-                      position: uluru,
-                      map: map,
-                    });
-                  }
-                </script>
-              </head>
-              <body>
-                <h3>My Google Maps Demo</h3>
-                <!--The div element for the map -->
-                <div id="map"></div>
-              </body>
-
-
         </div>
     </div>
-    </div>
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBqRpx4vm3K82SGKQz5H4_uMtVgfbcJWWg&callback=initMap&libraries=&v=weekly"
+      defer
+    ></script>
+    <link rel="stylesheet" type="text/css" href="/css/jhtmlf.css" />
+    <!--The div element for the map -->
+    <div id="map"></div>
     <div class="footer">
         Footer
     </div>
-    
+
 </body>
 
 </html>

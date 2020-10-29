@@ -40,7 +40,7 @@
 body {
   margin: 0;
   background: linear-gradient(to right, #ca5a04 0%, rgb(99, 95, 95));
-
+  
 }
 
 ul {
@@ -51,12 +51,12 @@ ul {
   width: 13%;
   background-color: rgb(88, 84, 84);
   position: fixed;
-  height: 85%;
+  height: 81%;
   overflow: auto;
 }
 
 .footer {
-  height: 100px;
+  height: 145px;
   width: 100%;
   background-color: #f1f1f1;
   text-align: center;
@@ -83,7 +83,7 @@ li a:hover:not(.active) {
 .card {
   border: double 3px;
   border-radius: 5px;
-  margin: 0;
+  margin-left: 15%;
   width: 800px;
 }
 
@@ -93,8 +93,8 @@ li a:hover:not(.active) {
   margin-top: 0;
 }
 
-.images {
-  padding-top: 60px;
+.abovelogo {
+  padding-top: 30px;
   text-align: center;
 }
 
@@ -105,13 +105,6 @@ li a:hover:not(.active) {
 .titel {
   text-align: center;
   font-size: 60px
-}
-
-.card2 {
-  border: double 3px;
-  border-radius: 5px;
-  margin-left: 45%;
-  width: 800px;
 }
 
 .logomain {

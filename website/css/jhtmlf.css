@@ -1,3 +1,99 @@
+.dropdown, [type="checkbox"] {
+  visibility: hidden;
+}
+
+#menu:checked ~ .dropdown, .list input:checked ~ ul {
+  visibility: visible;
+}
+
+/*style*/
+
+.right {
+  float: right;
+}
+
+.clear {
+  clear: both;
+}
+
+.logo {
+  padding-left: 60px;
+  position: fixed;
+}
+
+.h1 {
+  font-family: 'Courier New', Courier, monospace;
+  margin-top: -65px;
+  padding-left: 1000px;
+  position: fixed;
+}
+
+label:hover {
+  cursor: pointer;
+}
+
+label {
+  position: relative;
+}
+
+.nav {
+  
+}
+
+#nav-icon {
+  font-size: 65px;
+  z-index: 1;
+  position: fixed;
+}
+
+.dropdown {
+  padding-top: 0px;
+  font-size: 40px;
+}
+
+a:hover, a:visited, a:link, a:active
+{
+  text-decoration: none;
+}
+
+.list {
+  font-family: 'Courier New', Courier, monospace;
+  list-style: none;
+  text-align: center;
+  padding-left: 0px;
+}
+
+#a {
+  background-color: white;
+}
+
+.roclogo {
+  position: relative;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.h2 {
+  text-align: center;
+  font-size: 50px;
+}
+
+.opendagenlogo {
+  text-align: center;
+  padding-top: 30px;
+}
+
+/*paragraphstyle*/
+
+.paragraphhoofdpagina {
+  text-align: center;
+  font-size: 30px;
+}
+
+.paragraphleerjaar1 {
+  padding-left: 30px;
+  font-size: 25px;
+}
 /*
 .item1 {
   grid-area: header;
@@ -40,7 +136,7 @@
 body {
   margin: 0;
   background: linear-gradient(to right, #ca5a04 0%, rgb(99, 95, 95));
-
+  
 }
 
 ul {
@@ -50,13 +146,13 @@ ul {
   padding: 0;
   width: 13%;
   background-color: rgb(88, 84, 84);
-  position: fixed;
-  height: 85%;
+  height: 81%;
   overflow: auto;
+  position: fixed;
 }
 
 .footer {
-  height: 100px;
+  height: 145px;
   width: 100%;
   background-color: #f1f1f1;
   text-align: center;
@@ -83,7 +179,7 @@ li a:hover:not(.active) {
 .card {
   border: double 3px;
   border-radius: 5px;
-  margin: 0;
+  margin-left: 15%;
   width: 800px;
 }
 
@@ -93,8 +189,8 @@ li a:hover:not(.active) {
   margin-top: 0;
 }
 
-.images {
-  padding-top: 60px;
+.abovelogo {
+  padding-top: 30px;
   text-align: center;
 }
 
@@ -107,14 +203,16 @@ li a:hover:not(.active) {
   font-size: 60px
 }
 
-.card2 {
-  border: double 3px;
-  border-radius: 5px;
-  margin-left: 30%;
-  width: 800px;
-}
-
 .logomain {
   padding-left: 975px;
   padding-top: 50px;
 }
+/* Set the size of the div element that contains the map */
+#map {
+  height: 400px;
+  /* The height is 400 pixels */
+  width: 87%;
+  margin-left: 13%;
+  /* The width is the width of the web page */
+}
+

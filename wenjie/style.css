@@ -7,12 +7,12 @@ html, body {
 
 /*menu*/
 
-.dropdown, [type="checkbox"] {
-    display: none;
+ul, [type="checkbox"] {
+    visibility: hidden;
 }
 
 #menu:checked ~ .dropdown, .list input:checked ~ ul {
-    display: block;
+    visibility: visible;
 }
 
 /*style*/

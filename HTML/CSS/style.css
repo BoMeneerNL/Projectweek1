@@ -32,6 +32,7 @@ html, body {
 .logo {
     padding-left: 60px;
     position: fixed;
+    z-index: 1;
 }
 
 label:hover {
@@ -91,9 +92,28 @@ a:hover, a:visited, a:link, a:active
     padding-right: 120px;
 }
 
+.python {
+    padding-top: 75px;
+    padding-right: 75px;
+}
+
 .technovium {
     padding-top: 100px;
-    padding-right: 100px;;
+    padding-right: 100px;
+}
+
+.corona {
+    padding-top: 100px;
+}
+
+.boeken {
+    padding-top: 120px;
+    padding-right: 120px;
+}
+
+.p1bmw {
+    padding-top: -50px;
+    padding-left: 750px;
 }
 
 /*tekststyle*/

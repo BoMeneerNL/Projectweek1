@@ -48,7 +48,7 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  width: 15%;
+  width: 12%;
   background-color: rgb(88, 84, 84);
   position: fixed;
   height: 85%;
@@ -85,7 +85,6 @@ li a:hover:not(.active) {
   border-radius: 5px;
   margin: 0;
   width: 800px;
-
 }
 
 .card-title {
@@ -106,4 +105,16 @@ li a:hover:not(.active) {
 .titel {
   text-align: center;
   font-size: 60px
+}
+
+.card2 {
+  border: double 3px;
+  border-radius: 5px;
+  margin-left: 470px;
+  width: 800px;
+}
+
+.logomain {
+  padding-left: 975px;
+  padding-top: 50px;
 }
